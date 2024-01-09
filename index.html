@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ivy's Corner</title>
+    <meta name="description" content="Ivy's Corner" />
+    <style>
+      body,
+      html {
+        height: 100%;
+      }
+
+      .bgimg {
+        /* Background image */
+        background-image: url("https://unsplash.it/g/1600?image=1073");
+        /* Full-screen */
+        height: 100%;
+        /* Center the background image */
+        background-position: center;
+        /* Scale and zoom in the image */
+        background-size: cover;
+        /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+        position: relative;
+        /* Add a white text color to all elements inside the .bgimg container */
+        color: white;
+        font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+        font-size: 25px;
+      }
+
+      .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+      }
+
+      .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+      }
+
+      .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      hr {
+        margin: auto;
+        width: 40%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bgimg">
+      <div class="topleft">
+        <p></p>
+      </div>
+      <div class="middle">
+        <h1>Ivy's Corner</h1>
+        <hr />
+        <p>Coming Soon</p>
+      </div>
+      <div class="bottomleft">
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>
